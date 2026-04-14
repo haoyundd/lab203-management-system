@@ -10,7 +10,7 @@
 
 - [x] 补充发布前收尾项（忽略规则、仓库初始化、最终验证）
 - [x] 初始化本地 Git 仓库并整理首个提交
-- [ ] 尝试连接并上传到 GitHub
+- [x] 尝试连接并上传到 GitHub
 
 ## review
 - 后端：已补齐 Spring Boot + MyBatis 四层结构、统一 Result、全局异常、鉴权拦截、种子数据初始化、SVG 头像生成与核心业务接口。
@@ -25,3 +25,6 @@
 
 - 发布：已新增根目录 .gitignore、完成本地 Git 初始化，当前首个提交为 dd92134 feat: finalize lab203 management system。
 - 阻塞：当前工作区原本不是 Git 仓库，且本机未安装 GitHub CLI / browser automation 运行环境，也没有现成的 GitHub 远程地址，因此上传 GitHub 还需补充仓库目标信息。
+
+- GitHub：已为账号 haoyundd 创建公开仓库 lab203-management-system，仓库地址为 https://github.com/haoyundd/lab203-management-system。
+- 上传：由于本机 git push 到 GitHub HTTPS 超时，已改用 GitHub API 完成远端仓库初始化与代码上传，当前远端已包含项目源码。
