@@ -1,0 +1,29 @@
+:root {
+  --el-color-primary: var(--lab-teal);
+  --el-color-primary-light-3: rgba(15, 118, 110, 0.55);
+  --el-color-primary-light-5: rgba(15, 118, 110, 0.35);
+  --el-color-primary-light-7: rgba(15, 118, 110, 0.2);
+  --el-color-primary-light-8: rgba(15, 118, 110, 0.15);
+  --el-border-radius-base: 12px;
+  --el-font-family: 'Archivo', 'Noto Sans SC', sans-serif;
+}
+
+.el-button {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.el-input__wrapper,
+.el-textarea__inner {
+  border-radius: 12px;
+}
+
+.el-card {
+  border-radius: 16px;
+}
+
+.el-table {
+  --el-table-border-color: rgba(27, 27, 27, 0.08);
+  --el-table-header-bg-color: rgba(246, 241, 230, 0.8);
+  --el-table-row-hover-bg-color: rgba(15, 118, 110, 0.08);
+}
